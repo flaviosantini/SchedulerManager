@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading;
+﻿using System.Threading;
 using SchedulerManager.Configuration;
 
 namespace SchedulerManager.Mechanism
@@ -48,7 +47,7 @@ namespace SchedulerManager.Mechanism
         /// Note that this method must not be overridden. It is optional.
         /// </summary>
         /// <returns>Parameters to be used in the job.</returns>
-        public virtual Object GetParameters()
+        public virtual object GetParameters()
         {
             return null;
         }
@@ -57,7 +56,7 @@ namespace SchedulerManager.Mechanism
         /// Get the Job´s Name. This name uniquely identifies the Job.
         /// </summary>
         /// <returns>Job´s name.</returns>
-        public abstract String GetName();
+        public abstract string GetName();
 
         
 

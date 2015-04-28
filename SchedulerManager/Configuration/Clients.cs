@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace SchedulerManager.Configuration
 {
@@ -14,7 +13,7 @@ namespace SchedulerManager.Configuration
                 clientsList.Add(new Client
                 {
                     Id = i,
-                    Name = String.Format("Client Name {0}", i)
+                    Name = string.Format("Client Name {0}", i)
                 });
             }
 
