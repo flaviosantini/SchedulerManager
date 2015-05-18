@@ -1,5 +1,3 @@
-using System;
-
 namespace SchedulerManager.Configuration
 {
     public class Client

@@ -51,8 +51,8 @@ namespace SchedulerManager.Mechanism
                             }
                             catch (Exception ex)
                             {
-                                Console.WriteLine(String.Format("Error! The Job \"{0}\" could not " +
-                                  "be instantiated or executed.", job.Name), ex);
+                                Console.WriteLine(
+                                    $"Error! The Job \"{job.Name}\" could not " + "be instantiated or executed.", ex);
                             }
                         }
                         else

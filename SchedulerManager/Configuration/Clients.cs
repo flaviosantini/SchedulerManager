@@ -13,7 +13,7 @@ namespace SchedulerManager.Configuration
                 clientsList.Add(new Client
                 {
                     Id = i,
-                    Name = string.Format("Client Name {0}", i)
+                    Name = $"Client Name {i}"
                 });
             }
 
